@@ -1,0 +1,32 @@
+body {
+     background-color: gray;
+     color: white;
+}
+
+p, h1 {
+    color: red;
+}
+
+
+
+
+li.in-mijn-rij { /* voor een class selector staat altijd een . in de CSS */
+    background-color: khaki;
+}
+
+#mijzelf {
+    color: white;
+    text-decoration: underline;
+}
+
+
+div:only-child {
+    color:rgb(142, 153, 132);
+  }
+  
+  div {
+    display: inline-block;
+    margin: 6px;
+    outline: 1px solid;
+
+  }
