@@ -1,6 +1,5 @@
 article {
     background-color: darksalmon;
-    width: 80%;
 }
 
 body {
@@ -15,4 +14,18 @@ img {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main>div {
+    width: 80%;
 }
