@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+}
+header {
+    background-color: wheat;
+}
+main {
+    background-color: burlywood;
+    flex: 1;
+    width: 60%;
+}
+footer {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    object-fit:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigatie-bovenaan {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navigatie-bovenaan li {
+    background-color: burlywood;
+}
+
+.navigatie-bovenaan li:hover {
+    background-color: cornsilk;
+}
